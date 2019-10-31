@@ -7,5 +7,6 @@
 path=(
   $HOME/bin
   $HOME/homebrew/bin(N-/)
+  $HOME/anyenv/bin(N-/)
   $path
 )
