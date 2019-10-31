@@ -5,7 +5,7 @@
 #fi
 
 path=(
-  $HOME/bin
+  $HOME/bin(N-/)
   $HOME/homebrew/bin(N-/)
   $HOME/anyenv/bin(N-/)
   $path
