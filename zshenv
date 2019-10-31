@@ -10,3 +10,5 @@ path=(
   $HOME/anyenv/bin(N-/)
   $path
 )
+
+export ANYENV_ROOT="$HOME/anyenv"
