@@ -4,5 +4,8 @@
 #   . $_LOCAL_ZSHRC
 # fi
 
+# in ~/.zshenv, executed `unsetopt GLOBAL_RCS` and ignored /etc/zshrc
+[ -r /etc/zshrc ] && . /etc/zshrc
+
 # anyenv
 eval "$(anyenv init -)"
