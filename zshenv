@@ -24,6 +24,7 @@ path=(
   ${HOME}/bin(N-/)
   ${HOME}/homebrew/bin(N-/)
   ${HOME}/homebrew/sbin(N-/)
+  ${HOME}/.ghg/bin(N-/)
   ${HOME}/anyenv/bin(N-/)
   ${path}
 )
