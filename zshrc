@@ -15,4 +15,6 @@ alias gl='cd $(ghq root)/$(ghq list | peco)'
 alias gr='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
 
 # git
-[ -r "$HOME/go/src/github.com/git/git/contrib/completion/git-completion.zsh" ] && . $HOME/go/src/github.com/git/git/contrib/completion/git-completion.zsh
+if [ -r "$HOME/go/src/github.com/git/git/contrib/completion/git-completion.zsh" ]; then
+  zstyle ':completion:*:*:git:*' script $HOME/go/src/github.com/git/git/contrib/completion/git-completion.zsh
+fi
