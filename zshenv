@@ -29,7 +29,7 @@ path=(
 )
 
 manpath=(
-  ${HOME}/share/man(N-/)
+  ${HOME}/homebrew/share/man(N-/)
   ${manpath}
 )
 
