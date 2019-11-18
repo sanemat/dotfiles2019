@@ -2,7 +2,9 @@
 # if [ -f "$_LOCAL_ZSHENV" ]; then
 #   echo "load $_LOCAL_ZSHENV"
 #   . $_LOCAL_ZSHENV
-#fi
+# fi
+# export LANG="en_US.UTF-8"
+# export LC_ALL="en_US.UTF-8"
 
 export PATH
 export MANPATH
