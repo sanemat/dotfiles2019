@@ -18,3 +18,12 @@ https://docs.brew.sh/Installation
 cd
 mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
 ```
+
+## anyenv
+
+https://github.com/anyenv/anyenv
+
+```
+cd
+git clone https://github.com/anyenv/anyenv ~/anyenv
+```
