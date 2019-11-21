@@ -1,6 +1,16 @@
 # set up
 
+## dropbox if personal
+
+## keepassxc if personal
+
+Don't use appimage and snap (for browser integration)
+
 ## xcode if mac
+
+## install zsh
+
+## switch default shell to zsh
 
 ## git clone
 
