@@ -27,3 +27,5 @@ https://github.com/anyenv/anyenv
 cd
 git clone https://github.com/anyenv/anyenv ~/anyenv
 ```
+
+## ghq
