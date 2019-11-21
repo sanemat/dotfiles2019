@@ -1,5 +1,7 @@
 # set up
 
+## xcode if mac
+
 ## git clone
 
 ```
