@@ -17,10 +17,13 @@ export MANPATH
 # ref. http://zsh.sourceforge.net/Doc/Release/Shell-Builtin-Commands.html#index-typeset
 typeset -U PATH path MANPATH manpath
 
+export GOPATH="$HOME/go"
+
 path=(
   ${HOME}/bin(N-/)
   ${HOME}/.ghg/bin(N-/)
   ${HOME}/anyenv/bin(N-/)
+  ${GOPATH}/bin(N-/)
   ${HOME}/homebrew/bin(N-/)
   ${HOME}/homebrew/sbin(N-/)
   ${path}
