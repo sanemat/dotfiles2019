@@ -36,5 +36,10 @@ manpath=(
 
 export ANYENV_ROOT="$HOME/anyenv"
 
+# goenv
+# https://github.com/syndbg/goenv/blob/de335670b7b93c1b3a6eea71925d6aeffe0d66e5/CHANGELOG.md#200beta6
+# https://qiita.com/gimKondo/items/add08298e24ae400505e
+export GOENV_DISABLE_GOPATH=1
+
 # anyenv
 eval "$(anyenv init -)"
