@@ -54,3 +54,9 @@ if [ -r "$HOME/go/src/github.com/git/git/contrib/completion/git-completion.zsh" 
 fi
 
 autoload -U compinit && compinit
+
+# Save command history
+HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
+HISTSIZE=5000
+SAVEHIST=5000
+setopt append_history no_inc_append_history no_share_history
