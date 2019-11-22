@@ -30,3 +30,8 @@ manpath=(
   ${HOME}/homebrew/share/man(N-/)
   ${manpath}
 )
+
+export ANYENV_ROOT="$HOME/anyenv"
+
+# anyenv
+eval "$(anyenv init -)"
