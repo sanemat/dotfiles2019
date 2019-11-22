@@ -5,6 +5,7 @@
 	name = Matt (Sanemat)
 [core]
 	editor = vim
+	excludesfile = ~/go/src/github.com/sanemat/dotfiles2019/gitignore-system
 [color]
 	ui = auto
 [alias]
