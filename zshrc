@@ -43,3 +43,7 @@ export GOENV_DISABLE_GOPATH=1
 
 # anyenv
 eval "$(anyenv init -)"
+
+# github
+alias gl='cd $(ghq root)/$(ghq list | peco)'
+alias gr='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
