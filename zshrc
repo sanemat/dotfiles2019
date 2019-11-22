@@ -10,3 +10,23 @@
 
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
+
+export PATH
+export MANPATH
+# -U: keep only the first occurrence of each duplicated value
+# ref. http://zsh.sourceforge.net/Doc/Release/Shell-Builtin-Commands.html#index-typeset
+typeset -U PATH path MANPATH manpath
+
+path=(
+  ${HOME}/bin(N-/)
+  ${HOME}/homebrew/bin(N-/)
+  ${HOME}/homebrew/sbin(N-/)
+  ${HOME}/.ghg/bin(N-/)
+  ${HOME}/anyenv/bin(N-/)
+  ${path}
+)
+
+manpath=(
+  ${HOME}/homebrew/share/man(N-/)
+  ${manpath}
+)
