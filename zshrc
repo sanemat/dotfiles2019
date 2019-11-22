@@ -19,9 +19,9 @@ typeset -U PATH path MANPATH manpath
 
 path=(
   ${HOME}/bin(N-/)
+  ${HOME}/.ghg/bin(N-/)
   ${HOME}/homebrew/bin(N-/)
   ${HOME}/homebrew/sbin(N-/)
-  ${HOME}/.ghg/bin(N-/)
   ${HOME}/anyenv/bin(N-/)
   ${path}
 )
