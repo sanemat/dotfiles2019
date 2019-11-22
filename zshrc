@@ -4,9 +4,9 @@
 #   . $_LOCAL_ZSHRC
 # fi
 
-export LANG="en_US.UTF-8"
-export LC_ALL="en_US.UTF-8"
-
 # in ~/.zshenv, executed `unsetopt GLOBAL_RCS` and ignored /etc/zshrc
 [ -r /etc/zshrc ] && . /etc/zshrc
 [ -r /etc/zsh/zshrc ] && . /etc/zsh/zshrc
+
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
