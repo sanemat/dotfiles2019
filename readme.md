@@ -63,3 +63,7 @@ via deb
 ## haskell stack
 
 via tar.gz
+
+## rust rustup cargo
+
+via bash
