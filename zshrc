@@ -60,3 +60,6 @@ HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
 HISTSIZE=5000
 SAVEHIST=5000
 setopt append_history no_inc_append_history no_share_history
+
+# prompt
+PS1="${debian_chroot:+($debian_chroot)}\$ "
