@@ -59,3 +59,7 @@ via ghg
 ## antibody
 
 via deb
+
+## haskell stack
+
+via tar.gz
