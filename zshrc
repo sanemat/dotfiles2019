@@ -55,6 +55,9 @@ fi
 
 autoload -U compinit && compinit
 
+# direnv
+eval "$(direnv hook zsh)"
+
 # Save command history
 HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
 HISTSIZE=5000

@@ -40,6 +40,22 @@ git clone https://github.com/anyenv/anyenv ~/anyenv
 
 ## ghq
 
+via ghg
+
 ## ghg
 
 ## peco
+
+via ghg
+
+## hub
+
+via ghg
+
+## direnv
+
+via ghg
+
+## antibody
+
+via deb
