@@ -53,10 +53,15 @@ if [ -r "$HOME/go/src/github.com/git/git/contrib/completion/git-completion.zsh" 
   zstyle ':completion:*:*:git:*' script $HOME/go/src/github.com/git/git/contrib/completion/git-completion.zsh
 fi
 
-autoload -U compinit && compinit
+autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
 
 # direnv
 eval "$(direnv hook zsh)"
+
+# haskell
+export STACK_ROOT="$HOME/stack"
+eval "$(stack --bash-completion-script stack)"
 
 # Save command history
 HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
