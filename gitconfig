@@ -2,7 +2,7 @@
    root = ~/go/src
 [user]
 	email = o.gata.ken@gmail.com
-	name = Matt (Sanemat)
+	name = Matt (Sanemat) (Murahashi Kenichi)
 [core]
 	editor = vim
 	excludesfile = ~/go/src/github.com/sanemat/dotfiles2019/gitignore-system
