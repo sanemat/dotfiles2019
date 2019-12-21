@@ -25,6 +25,9 @@ path=(
   ${HOME}/anyenv/bin(N-/)
   ${GOPATH}/bin(N-/)
   ${HOME}/.cargo/bin(N-/)
+  ${HOME}/Android/Sdk/tools(N-/)
+  ${HOME}/Android/Sdk/tools/bin(N-/)
+  ${HOME}/Android/Sdk/platform-tools(N-/)
   ${HOME}/homebrew/bin(N-/)
   ${HOME}/homebrew/sbin(N-/)
   ${path}
