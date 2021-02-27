@@ -76,3 +76,8 @@ setopt append_history no_inc_append_history no_share_history
 
 # prompt
 PS1="${debian_chroot:+($debian_chroot)}\$ "
+
+# d8
+alias d8="$HOME/js/v8/out.gn/x64.optdebug/d8"
+alias tick-processor="$HOME/js/v8/tools/linux-tick-processor"
+export D8_PATH="$HOME/js/v8/out.gn/x64.optdebug"
