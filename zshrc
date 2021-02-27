@@ -69,8 +69,8 @@ eval "$(stack --bash-completion-script stack)"
 
 # Save command history
 HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
-HISTSIZE=5000
-SAVEHIST=5000
+HISTSIZE=10000
+SAVEHIST=10000
 setopt append_history no_inc_append_history no_share_history
 
 # prompt
