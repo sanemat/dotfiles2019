@@ -31,6 +31,7 @@ path=(
   ${GOPATH}/src/chromium.googlesource.com/chromium/tools/depot_tools(N-/)
   ${HOME}/homebrew/bin(N-/)
   ${HOME}/homebrew/sbin(N-/)
+  /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin(N-/)
   ${path}
 )
 
